@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ivAcerca"
+        android:layout_marginTop="10dp"
+        android:layout_width="207dp"
+        android:layout_height="244dp"
+        android:layout_gravity="center"
+        android:src="@drawable/alitas" />
+    <TextView
+        android:id="@+id/titulocontacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Infocontacto"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons8_email_50"
+            />
+        <TextView
+            android:id="@+id/contacto_correo"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="17dp"
+            android:text="@string/contacto_email"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons8_facebook_48"
+            />
+        <TextView
+            android:id="@+id/contacto_facebook"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="17dp"
+            android:text="@string/contacto_facebook"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

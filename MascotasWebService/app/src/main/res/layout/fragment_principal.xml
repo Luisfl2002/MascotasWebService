@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgprincipal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/peque_ito"
+        android:layout_centerHorizontal="true"
+
+
+
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/principal_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Little"
+        android:layout_below="@+id/imgprincipal"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvfprincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/principal_nombre"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

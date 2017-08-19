@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="Nombre_mascota">Nombre de la mascota</string>
+    <string name="Likes">Likes</string>
+    <string name="About">Acerca</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Configurar_cuenta">Configurar Cuenta</string>
+
+    <string name="Infocontacto">Acerca de:</string>
+    <string name="contacto_email">luisfl2002@hotmail.com</string>
+    <string name="contacto_facebook">https://www.facebook.com/LUIGIB0Y</string>
+    <string name="tnombrecontacto">Nombre</string>
+    <string name="temailcontacto">Email</string>
+    <string name="tsugerencias">Sugerencias</string>
+    <string name="nprincipal">Little</string>
+    <string name="boton_enviar">Enviar</string>
+
+
+</resources>
